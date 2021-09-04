@@ -33,9 +33,9 @@ function App() {
   }, []);
   return (
     < >
-    
+    <PrimarySearchAppBar/>
       <Movieview users={users} />
-      <PrimarySearchAppBar/>
+      
       
     </>
   );
@@ -214,7 +214,7 @@ const useStyles = makeStyles((theme) => ({
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           {/* <IconButton
             edge="start"

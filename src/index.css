@@ -1,4 +1,5 @@
 .moviecard{
+  padding: 4rem;
   display: grid;
   gap:4em;
   place-items: center;
